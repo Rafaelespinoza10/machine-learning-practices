@@ -1,0 +1,62 @@
+# =====================
+# Data & Datasets
+# =====================
+datasets/*
+!datasets/*.ipynb
+
+utils/*
+!utils/*.ipynb
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints
+*.csv
+*.json
+*.html
+*.png
+*.svg
+*.pdf
+
+# =====================
+# Modelos entrenados
+# =====================
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# =====================
+# Entornos
+# =====================
+venv/
+env/
+ENV/
+
+# =====================
+# Sistema & IDE
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# Logs
+# =====================
+*.log
